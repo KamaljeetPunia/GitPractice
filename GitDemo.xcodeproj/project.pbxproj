@@ -12,6 +12,7 @@
 		1829C0681F74D490009009B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1829C0661F74D490009009B9 /* Main.storyboard */; };
 		1829C06A1F74D490009009B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1829C0691F74D490009009B9 /* Assets.xcassets */; };
 		1829C06D1F74D490009009B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1829C06B1F74D490009009B9 /* LaunchScreen.storyboard */; };
+		1854A19C1F74E1C600A5D87F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854A19B1F74E1C600A5D87F /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1829C0691F74D490009009B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1829C06C1F74D490009009B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1829C06E1F74D490009009B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1854A19B1F74E1C600A5D87F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1829C0621F74D490009009B9 /* AppDelegate.swift */,
 				1829C0641F74D490009009B9 /* ViewController.swift */,
+				1854A19B1F74E1C600A5D87F /* MapViewController.swift */,
 				1829C0661F74D490009009B9 /* Main.storyboard */,
 				1829C0691F74D490009009B9 /* Assets.xcassets */,
 				1829C06B1F74D490009009B9 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1829C0651F74D490009009B9 /* ViewController.swift in Sources */,
+				1854A19C1F74E1C600A5D87F /* MapViewController.swift in Sources */,
 				1829C0631F74D490009009B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				1829C0731F74D490009009B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
